@@ -1,0 +1,159 @@
+body { 
+    padding-top: 80px; 
+    height: 100%;
+}
+
+td {
+    border: 1px solid #dcdde1;
+    width: 20px;
+    height: 20px;
+}
+
+
+.key {
+	border: 1px solid #79d9ce;
+	width: 25px;
+    height: 25px;
+    margin-right: 10px;
+}
+
+#navbarDropdown{
+    color:#ced6e0;
+    margin-left:30px;
+    font-size: 20px;
+}
+
+.banner-align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+/*  border:1px solid green;*/
+  flex-direction: column;
+    margin-top:13px;
+}
+
+
+.banner-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color:#c0392b;
+}
+
+.btn-space {
+	margin-right: 10px;
+    color:#c0392b;
+    
+}
+
+/*ye hai apne jaha algo aur speed chose krte hai*/
+#dd{
+    background-color:#2f3640;
+}
+
+/*ye un algo aur speed ka text color hai*/
+.dropdown-menu .dropdown-item{
+    color:#ced6e0;
+}
+
+
+#logo{
+    margin-left:20px;
+}
+
+
+
+
+#myNavbar{
+    background-color : #2f3640;
+}
+
+
+
+#update {
+	margin-bottom: 15px; 
+	margin-top: 10px;
+}
+
+.wall {
+	transition : background-color 0.1s ease-in-out;
+	background-color: #2C3A47;
+	border-color: #2C3A47;
+}
+
+.none {
+	transition : background-color 0.1s ease-in-out;
+	background-color: white;
+	border-color: #dcdde1;
+}
+
+.searching {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #fd9644;
+	border-color: #fd9644;
+}
+
+.visited {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #778ca3;
+	border-color: #778ca3;
+}
+
+.success {
+	transition : background-color 0.08s ease-in-out;
+	background-color: #218c74;
+	border-color: #218c74;
+}
+
+.start {
+	background-color: #0be881;
+	border-color: #0be881;
+}
+
+.end {
+	background-color: red;
+	border-color: red;
+}
+
+#bigTableContainer {
+	margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.custom-section {
+	margin-bottom: 20px;
+}
+
+
+#results {
+	height: 100px;
+	width: 120px;
+	background-color: #FD7272;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	color: #2C3A47;
+	font-size: 15px;
+	text-align: center;
+	border: 1px solid black;
+    
+}
+
+#resultsIcon {
+	margin-bottom: 3px;
+	margin-top: 7px;
+	font-size: 16px;
+}
+
+#duration, #length {
+	padding: 3px;
+}
+
+#infoModalBtn {
+	margin-left: 20px;
+}
+
+.fun-fact {
+	color: darkgreen;
+}
